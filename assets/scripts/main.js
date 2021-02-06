@@ -9,7 +9,6 @@ document.getElementById("honk-btn").addEventListener("click", playSound);
 var horn = new Audio("./assets/media/audio/air-horn.mp3");
 
 function playSound() {
-    console.log("playSoundEntered");
     horn.volume = document.querySelector("audio").volume;
     horn.pause();
     horn.play();
